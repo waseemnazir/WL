@@ -1,5 +1,6 @@
 import { appConfig } from './app.config';
 import { authConfig } from './auth.config';
-import { databaseConfig } from './database.config';
+import { postgresConfig } from './postgres.config';
+import { mongoConfig } from './mongo.config';
 
-export const configs = [appConfig, authConfig, databaseConfig];
+export const configs = [appConfig, authConfig, postgresConfig, mongoConfig];
